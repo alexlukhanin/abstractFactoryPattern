@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        //get shape factory
+        //get shape factory _new comment
         AbstractFactory shapeFactory = FactoryProducer.getFactory(false);
         //get an object of Shape Rectangle
         Shape shape1 = shapeFactory.getShape("RECTANGLE");
